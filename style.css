@@ -12,8 +12,8 @@ body{
     background: white;
 }
 
-.content img{
-    width:84px;
+.skill img{
+    width:100px;
 }
 
 .edu{
@@ -30,4 +30,61 @@ body{
      border-radius: 50%;
 
   
+}
+
+.first{
+    background-color: #024178;
+}
+
+.second{
+    background-color:rgb(245, 245, 245);
+}
+
+.card-body{
+    background-color: rgb(245, 245, 245);
+    
+}
+
+/* hover */
+.card .btn{
+    opacity: 0;
+    bottom:50%;
+    position: absolute;
+    transform:all 5s ease 0s;
+    transition: .7s;
+background:#024178;
+color:white;
+}
+.card:hover .btn,
+.card.active{
+ opacity: 1;
+ color:white;
+}
+
+.card:hover img{
+    opacity: .3;
+    transition: .5s;
+
+}
+
+.card-body{
+    background:#024178;
+opacity: 1;
+color:white;
+}
+
+.card-title{
+    font: normal normal  Poppins;
+    font-size:13px !important;
+
+opacity: 1;
+}
+
+.card{
+    border:none;
+}
+
+.skills:hover{
+    transform: scale(1.02);
+    transition: .5s;
 }
