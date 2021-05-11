@@ -34,6 +34,7 @@ body{
 
 .first{
     background-color: #024178;
+   
 }
 
 .second{
@@ -42,7 +43,7 @@ body{
 
 .card-body{
     background-color: rgb(245, 245, 245);
-    
+   
 }
 
 /* hover */
@@ -52,7 +53,7 @@ body{
     position: absolute;
     transform:all 5s ease 0s;
     transition: .7s;
-background:#024178;
+background:rgb(195, 7, 7);
 color:white;
 }
 .card:hover .btn,
@@ -68,7 +69,7 @@ color:white;
 }
 
 .card-body{
-    background:#024178;
+    background:rgb(195, 7, 7);
 opacity: 1;
 color:white;
 }
@@ -87,4 +88,14 @@ opacity: 1;
 .skills:hover{
     transform: scale(1.02);
     transition: .5s;
+    
+}
+
+.bdr a{
+    text-decoration:none;
+    color:white;
+}
+
+.bdr a:hover{
+    color:white;
 }
