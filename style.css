@@ -21,20 +21,20 @@ body{
 }
 .bdr{
     border: 1px rgb(234, 232, 232) solid;
+    /* box-shadow: 0px 2px 2px ; */
 }
 
 .profile{
-    width: 150px;
-     height: 150px;
+    
      overflow: hidden;
-     border-radius: 50%;
+     border-radius: 100%;
 
   
 }
 
 .first{
     background-color: #024178;
-   
+    
 }
 
 .second{
@@ -82,8 +82,10 @@ opacity: 1;
 }
 
 .card{
-    border:none;
+    
+    box-shadow: 0px 2px 10px;
 }
+
 
 .skills:hover{
     transform: scale(1.02);
@@ -98,4 +100,15 @@ opacity: 1;
 
 .bdr a:hover{
     color:white;
+}
+
+.second h4{
+    color:#055193;
+}
+
+.green{
+    color: green;
+}
+.red{
+    color:rgb(195, 7, 7);
 }
