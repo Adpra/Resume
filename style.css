@@ -49,7 +49,7 @@ body{
 /* hover */
 .card .btn{
     opacity: 0;
-    bottom:50%;
+    bottom:65%;
     position: absolute;
     transform:all 5s ease 0s;
     transition: .7s;
